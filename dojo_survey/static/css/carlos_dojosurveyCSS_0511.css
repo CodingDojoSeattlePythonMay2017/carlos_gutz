@@ -1,0 +1,66 @@
+*{
+    margin: 10px auto;
+}
+/*All HTML have this class.*/
+.master{
+    width: 80%;
+    padding: 0.2rem;
+    /*border: */
+}
+    h1{
+        text-align: center;
+    }
+
+    #survey_form{
+        background: linear-gradient(lightblue, lightgoldenrodyellow);
+        border-radius: 20px;
+        width: 50%;
+        padding: 0.25rem;
+        border: 1px solid black;
+        box-shadow: 7px 11px 22px orchid
+    }
+
+    label{
+        width: 95%;
+        text-align: center;
+    }
+    label, select{
+        display: inline-block;
+        margin: 0.75em;
+    }
+    .submitbutton{
+        background: radial-gradient(beige, blanchedalmond, navajowhite);
+        border-radius: 5px;
+        width: 30%;
+        display: block;
+    }
+    textarea{
+        /*resize: both;
+        overflow: auto;*/
+        width: 50%;
+        font-size: 1.5em;
+    }
+        /*for shubmitted_page_0512.html*/
+    #submitted_info{
+        width: 80%;
+        padding: 0.25rem;
+        border: 5px solid black;
+    }
+        
+        ul{
+            width: 30%;
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+        }
+        #left_side{
+            text-align: right;
+            width: 40%
+        }
+        li{
+            width: 100%;
+            
+        }
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Submitted DojoSurvey</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/carlos_dojosurveyCSS_0511.css') }}">
+    </head>
+    <body>
+        <div class="master">
+            <h1>Submitted Info</h1>
+            <div id="submitted_info">
+                <ul id="left_side">
+                    <li>Name:</li>
+                    <li>Dojo Location:</li>
+                    <li>Favorite Language:</li>
+                    <li>Comment:</li>
+                </ul>
+                <ul>
+                    <li>{{ name }}</li>
+                    <li>{{ dojo_location }}</li>
+                    <li>{{ favorite_language }}</li>
+                    <li>{{ comment_message }}</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
